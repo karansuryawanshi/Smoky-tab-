@@ -1,1 +1,5 @@
 /smoky_tab/*.download
+.gitignore
+smoky_tab/
+smoky_tab/desktop-only-app.min.js.download
+smoky_tab/
