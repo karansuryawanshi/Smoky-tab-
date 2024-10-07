@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Smoky Tab",
+  "version": "1.0",
+  "description": "A Chrome extension that displays a smoke effect every time a new tab is opened.",
+  "permissions": ["tabs"],
+  "chrome_url_overrides": {
+    "newtab": "smoky_tab.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/chrome.jpg",
+        "assets/chrome1.jpg",
+        "assets/chrome2.jpg",
+        "assets/chrome3.jpg",
+        "assets/chrome4.jpg",
+        "assets/chrome5.jpg",
+        "assets/chrome6.jpg",
+        "assets/chrome7.jpg",
+        "assets/chrome8.jpg",
+        "assets/chrome9.jpg",
+        "assets/chrome10.jpg",
+        "assets/chrome11.jpg"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "smoky_tab.html"
+  }
+}
